@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# Environments
+.env
+.venv/
+env/
+*.egg-info/
+pip-wheel-metadata/
+
+# Data / Artifacts
+/content/
+*.pdf
+*.jpg
+*.png
+*.json
+
+# Streamlit cache
+.streamlit/
+
+# VSCode / IDE
+.vscode/
+.idea/

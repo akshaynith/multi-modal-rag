@@ -1,0 +1,36 @@
+# Core LangChain & integrations
+langchain>=0.2.10
+langchain-openai>=0.2.0
+langchain-chroma>=0.1.0
+
+# Vector DB
+chromadb>=0.5.5
+
+# Document parsing
+pymupdf>=1.24.9          # reliable PDF text+image extractor
+unstructured>=0.15,<0.16 # optional, for OCR/hi_res mode
+unstructured-inference>=0.8.8,<0.9
+pillow-heif>=1.1.0
+pi-heif>=0.16,<0.17
+
+# ML/AI
+torch>=2.3.0
+transformers>=4.55.0
+
+# Utilities
+python-dotenv>=1.0.1
+tqdm>=4.67.1
+
+# UI
+streamlit>=1.38.0
+
+# Data wrangling
+pandas>=2.2.0
+numpy>=1.26,<2.0
+
+# OCR (optional, for hi_res PDF parsing)
+pytesseract>=0.3.13
+pdfminer.six==20231228
+
+# Visualization (optional, for layoutparser/figures)
+layoutparser>=0.3.4,<0.4
